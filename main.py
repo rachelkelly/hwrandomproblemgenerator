@@ -16,5 +16,6 @@ while i < amount:
 print("From section",section,"there are",amount,"problems, which are the following\n")
 print(problems)
 
-problemChoice = random.randint[0,amount]
-print("The problem to grade is",problems[problemChoice])
+problemChoice = random.choice(problems)
+#whoa, random.choice might work!  thanks steve from pyladies!
+print("The problem to grade is",problemChoice)
