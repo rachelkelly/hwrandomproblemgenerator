@@ -13,5 +13,7 @@ This program takes in:
 
 It then puts out:
 "From section " ,SECTION, "there are" ,NUMBER, "problems, which are the following:"
+
 "[firstProblem, secondProblem, thirdProblem, ... ,nProblem]"
+
 "The problem to grade is" ,iProblem, "."
