@@ -4,12 +4,17 @@
 import random
 
 problems = []
+i = 0
+
 section = float(input("what section is today's homework? "))
 amount = int(input("\nhow many problems today? "))
 while i < amount:
-  problem = int(input("what is the problem number? "))
+	problem = int(input("what is the problem number? "))
 	problems.append(problem)
 	i += 1
 
 print("From section",section,"there are",amount,"problems, which are the following\n")
 print(problems)
+
+problemChoice = random.randint[0,amount]
+print("The problem to grade is",problems[problemChoice])
