@@ -3,8 +3,8 @@ hwrandomproblemgenerator
 
 This program is available under a Creative Commons license.  You may use, edit, and distribute without credit.
 
-This quarter, I grade homework problems in Statistics 243 every day
-The problem number needs to be random, for fairness' sake.
+This quarter, I grade homework problems in Statistics 243 every day.
+Only one problem of each set is graded, the number of which must be random, for fairness' sake.
 
 This program takes in:
 1) The book's section number
